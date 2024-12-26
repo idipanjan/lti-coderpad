@@ -257,10 +257,17 @@ questions_answers = """
 **Answer:** To rollback operations on failure.
 """
 
-# Saving the questions and answers to a text file
-file_path = "/mnt/data/Java_Spring_Questions_Answers.txt"
 
-with open(file_path, "w") as file:
-    file.write(questions_answers)
+Difference Between @RequestParam and @PathVariable:
 
-file_path  # Returning the file path so the user can download the file
+@RequestParam: Extracts query parameters from the URL.
+@PathVariable: Extracts path parameters from the URL.
+Default Scope of Spring Beans:
+
+Singleton: One instance per Spring container.
+Compilation Error with ProceedingJoinPoint:
+
+The code will not compile because throws Throwable is not specified in the manageCall declaration.
+Ambiguity in Bean Definitions:
+
+NoUniqueBeanDefinitionException is thrown when multiple beans of the same type exist without explicit resolution.
